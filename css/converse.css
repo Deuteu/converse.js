@@ -1245,6 +1245,9 @@ select#select-xmpp-status {
   resize: none;
   height: 59px;
 }
+#conversejs form.sendXMPPMessage .chat-textarea:only-child {
+ height: 100%;
+}
 #conversejs .chatroom .chat-textarea {
   border-bottom-right-radius: 0;
 }
